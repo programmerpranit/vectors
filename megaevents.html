@@ -41,12 +41,12 @@
     <!--==========================
     Header
   ============================-->
-    <header id="header">
+    <header id="header" class="header-fixed">
       <div class="container">
         <div id="logo" class="pull-left">
           <!-- Uncomment below if you prefer to use a text logo -->
           <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-          <a href="#intro" class="scrollto"
+          <a href="index.html#intro" class="scrollto"
             ><img src="img/logo.png" alt="" title=""
           /></a>
         </div>
@@ -54,10 +54,17 @@
         <nav id="nav-menu-container">
           <ul class="nav-menu">
             <li class="menu-active"><a href="#intro">Home</a></li>
-            <li><a href="#about">Mega Events</a></li>
-            <li><a href="#about">Mini Events</a></li>
-            <li><a href="#about">Fun Events</a></li>
-            <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#speakers">Speakers</a></li>
+            <li><a href="index.html#schedule">Schedule</a></li>
+            <li><a href="index.html#venue">Venue</a></li>
+            <li><a href="index.html#hotels">Hotels</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#sponsors">Sponsors</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li class="buy-tickets">
+              <a href="index.html#buy-tickets">Buy Tickets</a>
+            </li>
           </ul>
         </nav>
         <!-- #nav-menu-container -->
@@ -65,58 +72,16 @@
     </header>
     <!-- #header -->
 
-    <!--==========================
-    Intro Section
-  ============================-->
-    <section id="intro">
-      <div class="intro-container wow fadeIn">
-        <h1 class="mb-4 pb-0">Vectors<br /><span>Think</span> Innovative</h1>
-        <p class="mb-4 pb-0">17-18 March, ACPCE Kharghar</p>
-        <a
-          href="https://youtu.be/N281q91AwFs"
-          class="venobox play-btn mb-4"
-          data-vbtype="video"
-          data-autoplay="true"
-        ></a>
-        <a href="#about" class="about-btn scrollto">About The Event</a>
-      </div>
-    </section>
+    <!-- #header -->
 
-    <id id="main">
-      <!--==========================
-      About Section
-    ============================-->
-      <section id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <h2>About The Event</h2>
-              <p>
-                Sed nam ut dolor qui repellendus iusto odit. Possimus inventore
-                eveniet accusamus error amet eius aut accusantium et. Non odit
-                consequatur repudiandae sequi ea odio molestiae. Enim possimus
-                sunt inventore in est ut optio sequi unde.
-              </p>
-            </div>
-            <div class="col-lg-3">
-              <h3>Where</h3>
-              <p>Downtown Conference Center, New York</p>
-            </div>
-            <div class="col-lg-3">
-              <h3>When</h3>
-              <p>Monday to Wednesday<br />10-12 December</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+    <main id="main my-5 py-5">
       <!--==========================
       Speakers Section
     ============================-->
       <section id="speakers" class="wow fadeInUp">
-        <div class="container">
+        <div class="container my-5">
           <div class="section-header">
-            <h2>Events</h2>
+            <h2 class="mt-5 pt-5">Mega Events</h2>
             <p>Here are the events</p>
           </div>
 
@@ -684,6 +649,6 @@
 
       <!-- Template Main Javascript File -->
       <script src="js/main.js"></script>
-    </id>
+    </main>
   </body>
 </html>
